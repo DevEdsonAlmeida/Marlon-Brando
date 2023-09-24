@@ -1,0 +1,112 @@
+* {
+
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.imgPrincipal {
+    border-radius: 10px 0 0 10px;
+}
+
+.navegador,
+footer {
+    height: 50px;
+    font-size: 30px;
+    background-color: #bca464;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+.naveg {
+    background-color: #bca464;
+    color: black;
+    margin: 20px;
+}
+
+
+
+.naveg:hover {
+    background-color: #ffffff;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #bca464;
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dadosMarlon {
+    background-color: #bca464;
+    font-size: 30px;
+    margin-left: 30px;
+    width: 600px;
+    overflow: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: bold;
+}
+
+.textoInicial {
+
+    font-size: 23px;
+    text-align: justify;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+    background-color: #bca464;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.imagem1,
+.imagem2,
+.imagem3,
+.imagem4,
+.imagem5,
+.imagem6,
+.imagem7,
+.imagem8 {
+    width: 500px;
+    height: 500px;
+    margin: 40px 10px 40px 43px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #bca464;
+}
