@@ -3,4 +3,4 @@
 <h2>Tecnologias Utilizadas</h2>
   <p>- HTML</p>
   <p>- CSS</p>
-<img src=""/>
+<img src="https://github.com/DevEdsonAlmeida/Marlon-Brando/blob/main/images/Captura%20de%20tela%202023-09-24%20205001.png"/>
