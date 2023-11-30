@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@400;700&display=swap');
+
+
 * {
 
-    background-color: #ffffff;
+
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
     margin-left: 50px;
 }
 
+.clock {
+    flex: 3;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+.relogio {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    margin-right: 100px;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background: #bca464;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 25px;
+}
+
+
+
+
 .imgPrincipal {
+    flex: 1;
     border-radius: 10px 0 0 10px;
 }
 
@@ -21,6 +73,7 @@ footer {
     border-radius: 10px;
 
 }
+
 
 .naveg {
     background-color: #bca464;
@@ -36,8 +89,10 @@ footer {
 }
 
 
+
 .container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: #bca464;
     border-radius: 10px;
@@ -54,6 +109,7 @@ footer {
 }
 
 .dadosMarlon {
+    flex: 2;
     background-color: #bca464;
     font-size: 30px;
     margin-left: 30px;
